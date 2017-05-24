@@ -914,7 +914,7 @@ public class Leanplum {
   /**
    * Call this when your activity pauses. This is called from LeanplumActivityHelper.
    */
-  static void pause() {
+  public static void pause() {
     if (Constants.isNoop()) {
       return;
     }
@@ -948,7 +948,7 @@ public class Leanplum {
   /**
    * Call this when your activity resumes. This is called from LeanplumActivityHelper.
    */
-  static void resume() {
+  public static void resume() {
     if (Constants.isNoop()) {
       return;
     }
